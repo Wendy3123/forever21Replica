@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    margin:0;
+}
+
+li{
+    list-style: none;
+    display:inline;
+}
+ul{
+    margin-left: 70vw;
+}
+
+.paddingr{
+    padding-right:2vw;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+.searchbarnav{
+    display: flex;
+}
+
+.inline{
+    padding-right: 5%;
+    position: relative;
+    top:-30px;
+    font-size: xx-large;
+}
+
+.inline-searchbox{
+    border-radius: 20px;
+    font-size: large;
+}
+
+.searchbaricons{
+    padding-left: 3%;
+    
+}
