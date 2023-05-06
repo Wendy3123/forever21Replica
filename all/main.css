@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    margin:0;
+    margin-left: 20px;
 }
 
 li{
@@ -8,7 +8,7 @@ li{
     display:inline;
 }
 ul{
-    margin-left: 70vw;
+    margin-left: 75vw;
 }
 
 .paddingr{
@@ -24,7 +24,7 @@ h1{
 }
 
 .inline{
-    padding-right: 5%;
+    padding-right: 4%;
     position: relative;
     top:-30px;
     font-size: xx-large;
@@ -36,6 +36,200 @@ h1{
 }
 
 .searchbaricons{
-    padding-left: 3%;
+    padding-left: 1%;
+}
+.searchbaricons i{
+    padding-right:6px;
+}
+
+#inlinetwo,#inlinethree{
+    display: inline;
+}
+
+.shopcategory{
+    margin-top: -35px;
+    margin-bottom: 35px;
+}
+
+.hamburgerlines{
+    padding-right:2%
+}
+
+.linebreak1,.linebreak2{
+    padding-right:1%
+}
+.grayh3{
+    color:#4e4c4c;
+    padding-right:35%;
+}
+.giftcardicon,.creditcardtext,.creditcardicon{
+    padding-right:.2%;
+}
+
+.blackbar{
+    background-color: black;
+    color:white;
+    margin-top: 15px;
+    text-align: center;
+    height:45px;
+}
+
+.summerdealtext,.lesssign,.greatersign{
+    position: relative;
+    top:10px;
+}
+
+.lesssign{
+    padding-right: 200px;;
+}
+.greatersign{
+    padding-left: 200px;
+}
+
+.bigpic{
+    width:100%;
+    height:370px;
+    justify-content: center;
+    position: relative;
+    top:35px;
+}
+
+#inlinefour{
+    display:inline;
+}
+.smallboxes{
+    margin-top:70px;
+    text-align: center;
+}
+.rightspace{
+    padding:1% 3% 1% 3%;
+    margin-right: 1.5%;
+    background-color: peachpuff; 
+}
+
+
+
+@media(max-width:1250px){
+    body{
+        background-color: yellowgreen;
+    }
+    ul{
+        margin-left: 70vw;
+    }
+    .inline-searchbox{
+        width:60vw;
+    }
+    .searchbaricons{
+        padding-left: 1%;
+    }
+    .inline{
+        padding-right: 1%;
+    }
+    .searchbaricons i{
+        padding-right:3px;
+    }
+    .linebreak,.hamburgerlines,.giftcardicon,.creditcardicon{
+        padding-right:8px;
+    }
+    .grayh3{
+        padding-right: 15px;
+    }
+    .storeicon{
+        margin-left:-7px;
+    }
+    .smallboxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+@media(max-width:900px){
+    body{
+        background-color: plum;
+    }
+    ul{
+        margin-left: -4.5vw;
+    }
+    .inline-searchbox{
+        width:40vw;
+    }
     
+    .searchbaricons{
+        padding-left: 1%;
+    }
+    .inline{
+        padding-right: 1%;
+        font-size:              !!!!!
+    }
+    .searchbaricons i{
+        padding-right:3px;
+    }
+    .linebreak,.hamburgerlines,.giftcardicon,.creditcardicon{
+        padding-right:0;
+    }
+    .grayh3{
+        padding-right: 5px;
+    }
+    .storeicon{
+        margin-left:-10px;
+    }
+    .linebreak2{
+        margin-left: -16px;
+    }
+    .lesssign{
+        padding-right: 8vw;
+    }
+    .greatersign{
+        padding-left: 8vw;
+    }
+    .smallboxes{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:708px){
+    body{
+        background-color: rgb(206, 143, 55);
+    }
+    .inline-searchbox{
+        width:30vw;
+    }
+    .searchbaricons{
+        padding-left: 1%;
+    }
+    .inline{
+        padding-right: 1%;
+        font-size: 30px;
+    }
+    .searchbaricons i{
+        padding-right:0px;
+    }
+    .hamburgerlines,.giftcardicon,.creditcardicon{
+        padding-right:0;
+    }
+    .creditcardicon{
+        padding-left:36vw;
+    }
+    .grayh3{
+        padding-right:230px;
+    }
+    .storeicon{
+        margin-left:-10px;
+    }
+    .linebreak2{
+        margin-left: -16px;
+    }
+    .lesssign{
+        padding-right: 8vw;
+    }
+    .greatersign{
+        padding-left: 8vw;
+    }
 }
