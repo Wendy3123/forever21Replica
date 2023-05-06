@@ -110,9 +110,9 @@ h1{
 
 
 @media(max-width:1250px){
-    body{
+   /* body{
         background-color: yellowgreen;
-    }
+    }*/
     ul{
         margin-left: 70vw;
     }
@@ -149,9 +149,9 @@ h1{
 
 
 @media(max-width:900px){
-    body{
+   /*body{
         background-color: plum;
-    }
+    }*/
     ul{
         margin-left: -4.5vw;
     }
@@ -195,9 +195,9 @@ h1{
 
 
 @media(max-width:708px){
-    body{
+    /*body{
         background-color: rgb(206, 143, 55);
-    }
+    }*/
     .inline-searchbox{
         width:30vw;
     }
